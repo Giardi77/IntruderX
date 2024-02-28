@@ -1,4 +1,63 @@
 # IntruderX - An alternative to Burp's intruder
 
-I got really annoyed by the slowness and limitations on burp suite community's intruder, so i decided to try and make my version of it
+I got really annoyed by the slowness and limitations on burp suite community's intruder, so i decided to try and make my version of it.
 
+## Setup
+
+- git clone https://github.com/Giardi77/IntruderX.git
+- cd IntruderX
+- pip install -r requirements.txt
+
+## How does it work
+
+I've tried my best to make it super easy and comprehesible, the main feature of this tool is that you can easily add more stuff.
+
+The easiest thing you can do it's sending a request with: 
+
+python3 IntruderX.py -t http://localhost/ -m GET
+
+this will send a simple get request to the TARGET (-t),as i mentioned previously you can add more stuff like parameters, headers or application/x-www-form-urlencoded data in the body (JSON for POST requests).
+Let's add all of that.
+
+python3 intruderx.py -t http://localhost/ -m GET --params param1:example,param2:example --headers h1:example --data a:1 -v 4
+
+Request will look like:
+
+GET /?param1=example&param2=example
+host: localhost:3000
+h1: example
+content-length: 3
+content-type: application/x-www-form-urlencoded
+
+a=1
+
+Now the fun part.
+You can use the -sc switch (--special_char) followed by a key-value pair where key is the special char and the value is the list of objects to iterate by replacing his special char.
+Special char can be ranges of numbers like "range(10)" (from 0 to 9) or list of char like "abcde" or list of lines of a file .txt (must put the file on lists folder).
+special chars can be used anywhere except for the target.
+
+example:
+
+python3 intruderx.py -t http://localhost:3000/ -m POST --headers exapleheader:$ --data a:# -sc $:range(3),#:abc -v 4
+
+this will send from: 
+
+POST http://localhost:3000/
+host: localhost:3000
+exapleheader: 0       <----
+content-type: application/json
+content-length: 10
+
+{"a": "a"}  <--- 
+
+
+to:
+
+
+POST http://localhost:3000/
+host: localhost:3000
+exapleheader: 2       <----
+content-type: application/json
+content-length: 10
+
+{"a": "c"}     <----
