@@ -1,5 +1,6 @@
 from itertools import product
 from termcolor import colored
+from datetime import datetime
 from time import sleep
 import argparse
 import sys
@@ -16,6 +17,8 @@ LEVEL='3'
 METHOD='GET'
 LOGO= "\n\n    _____         _                     _           __   __\n   |_   _|       | |                   | |          \ \ / /\n     | |   _ __  | |_  _ __  _   _   __| |  ___  _ __\ V /\n     | |  | '_ \ | __|| '__|| | | | / _` | / _ \| '__|> <\n    _| |_ | | | || |_ | |   | |_| || (_| ||  __/| |  / . \ \n   |_____||_| |_| \__||_|    \__,_| \__,_| \___||_| /_/ \_\            by Giardi :)\n\n\n\n"
 WAIT=None
+INCLUDES=None
+OMITS=None
 
 parser = argparse.ArgumentParser(prog=LOGO,
                     description='\t𝐀𝐥𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐯𝐞 𝐭𝐨 𝐁𝐮𝐫𝐩\'𝐬 𝐈𝐧𝐭𝐫𝐮𝐝𝐞𝐫 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐨𝐩 𝐨𝐟 𝐡𝐭𝐭𝐩𝐱',)
@@ -29,8 +32,12 @@ parser.add_argument('--cookies',help='add cookies (key:value,key:value...')
 parser.add_argument('-v','--verbouse',help='set verbousity: 1 to 4 (default 3)')
 parser.add_argument('-d','--data',help='Add data to request body')
 parser.add_argument('-w','--wait',help='delay in seconds after sending a request')
+parser.add_argument('--includes',help='check if a string is included')
+parser.add_argument('--omits',help='check if a string is omitted')
 
 args = parser.parse_args()
+
+print(parser.prog + '\n' + parser.description + '\n' + '\n')
 
 def stringtodict(input_string)->dict:
     """
@@ -84,7 +91,7 @@ def print_based_on_verbousity(level,res,req):
         for name, value in res.headers.items():
             print(f"{name}: {value}")
         print('\n')
-        print('<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
+        print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
     elif level == '3':
         if res.status_code == 200:
@@ -95,7 +102,7 @@ def print_based_on_verbousity(level,res,req):
             print(f"{name}: {value}")
         print('\n')
         print(res.content.decode())
-        print('<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
+        print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
     elif level == '4':
         print(req.method+' '+str(req.url),end='\n')
@@ -121,9 +128,37 @@ def print_based_on_verbousity(level,res,req):
             print(f"{name}: {value}")
         print('\n')
         print(res.content.decode())
-        print('<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
+        print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
-print(parser.prog + '\n' + parser.description + '\n' + '\n')
+def save_found_match(req,res):
+    current_date_time = datetime.now()
+    formatted_date_time = current_date_time.strftime("%Y-%m-%d|%H-%M-%S")
+    filename= f'./outputs/{formatted_date_time}.txt'
+    with open(filename, 'a') as file:
+        file.write(str(req.url) + '\n')
+        try:
+            if req.params:
+                file.write(f'{req.params}\n')
+        except AttributeError:
+            pass
+        for name, value in req.headers.items():
+            file.write(f"{name}: {value}\n")
+        try:
+            if req.read() is not None:
+                file.write(f'\n{req.read().decode()}\n\n')
+        except AttributeError:
+            print('error')
+            pass
+        file.write('\n')
+        if res.status_code == 200:
+            file.write(f'[{str(res.status_code)}]\n')
+        else:
+            file.write(f'[{str(res.status_code)}]\n')
+        for name, value in res.headers.items():
+            file.write(f"{name}: {value}\n")
+        file.write('\n')
+        file.write(res.content.decode())
+        file.write('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
 if args.target is None:
     print("\n Set a target with -t switch (-t https://127.0.0.1/)")
@@ -154,7 +189,14 @@ if args.data is not None:
 if args.wait is not None:
     WAIT=int(args.wait)
 
+if args.includes is not None:
+    INCLUDES=args.includes
+
+if args.omits is not None:
+    OMITS=args.omits
+
 if args.special_char is not None:
+    MATCHING=0
     client = httpx.Client()
     RANGES = None
     char = stringtodict(args.special_char)
@@ -196,12 +238,22 @@ if args.special_char is not None:
         try:
             response = client.send(request)
             print_based_on_verbousity(LEVEL,response,request)
+            if OMITS:
+                if OMITS not in response.content.decode():
+                    save_found_match(request,response)
+                    MATCHING+=1
+            if INCLUDES:
+                if INCLUDES in response.content.decode():
+                    save_found_match(request,response)
+                    MATCHING+=1
+
             if WAIT is not None:
                 sleep(WAIT)
         except ConnectionError:
             print(colored("CONNECTION ERROR!",'red'))
         
-        
+    if MATCHING > 0:
+        print(f"GOOD NEWS FOUND {MATCHING} MATCHINGS")
     client.close()
 
 else:
