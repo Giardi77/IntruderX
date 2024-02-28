@@ -1,9 +1,11 @@
 from itertools import product
 from termcolor import colored
+from time import sleep
 import argparse
 import sys
 import httpx
 import json
+
 
 DATA={}
 TARGET=None
@@ -13,6 +15,7 @@ COOKIES={}
 LEVEL='3'
 METHOD='GET'
 LOGO= "\n\n    _____         _                     _           __   __\n   |_   _|       | |                   | |          \ \ / /\n     | |   _ __  | |_  _ __  _   _   __| |  ___  _ __\ V /\n     | |  | '_ \ | __|| '__|| | | | / _` | / _ \| '__|> <\n    _| |_ | | | || |_ | |   | |_| || (_| ||  __/| |  / . \ \n   |_____||_| |_| \__||_|    \__,_| \__,_| \___||_| /_/ \_\            by Giardi :)\n\n\n\n"
+WAIT=None
 
 parser = argparse.ArgumentParser(prog=LOGO,
                     description='\t𝐀𝐥𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐯𝐞 𝐭𝐨 𝐁𝐮𝐫𝐩\'𝐬 𝐈𝐧𝐭𝐫𝐮𝐝𝐞𝐫 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐨𝐩 𝐨𝐟 𝐡𝐭𝐭𝐩𝐱',)
@@ -25,6 +28,7 @@ parser.add_argument('-sc','--special_char',help='special char and file or list')
 parser.add_argument('--cookies',help='add cookies (key:value,key:value...')
 parser.add_argument('-v','--verbouse',help='set verbousity: 1 to 4 (default 3)')
 parser.add_argument('-d','--data',help='Add data to request body')
+parser.add_argument('-w','--wait',help='delay in seconds after sending a request')
 
 args = parser.parse_args()
 
@@ -147,6 +151,9 @@ if args.params is not None:
 if args.data is not None:
     DATA=stringtodict(args.data) 
 
+if args.wait is not None:
+    WAIT=int(args.wait)
+
 if args.special_char is not None:
     client = httpx.Client()
     RANGES = None
@@ -163,10 +170,9 @@ if args.special_char is not None:
             with open(f'./lists/{value}', 'r') as file:
                 lines = file.readlines() 
                 perms[thiskey]= [line.strip() for line in lines]
+                perms[thiskey] = [line for line in perms[thiskey] if line != '']
         else:
             perms[thiskey] = list(value)
-
-    payloads = []
 
     keys = list(perms.keys())
     iterables = list(perms.values())
@@ -190,8 +196,11 @@ if args.special_char is not None:
         try:
             response = client.send(request)
             print_based_on_verbousity(LEVEL,response,request)
+            if WAIT is not None:
+                sleep(WAIT)
         except ConnectionError:
             print(colored("CONNECTION ERROR!",'red'))
+        
         
     client.close()
 
