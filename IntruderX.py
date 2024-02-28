@@ -1,14 +1,17 @@
 from itertools import product
+from termcolor import colored
 import argparse
 import sys
 import httpx
+import json
 
+DATA={}
 TARGET=None
 HEADERS={}
 PARAMS={}
 COOKIES={}
-LEVEL=3
-METHOD=str
+LEVEL='3'
+METHOD='GET'
 LOGO= "\n\n    _____         _                     _           __   __\n   |_   _|       | |                   | |          \ \ / /\n     | |   _ __  | |_  _ __  _   _   __| |  ___  _ __\ V /\n     | |  | '_ \ | __|| '__|| | | | / _` | / _ \| '__|> <\n    _| |_ | | | || |_ | |   | |_| || (_| ||  __/| |  / . \ \n   |_____||_| |_| \__||_|    \__,_| \__,_| \___||_| /_/ \_\            by Giardi :)\n\n\n\n"
 
 parser = argparse.ArgumentParser(prog=LOGO,
@@ -20,7 +23,8 @@ parser.add_argument('-H','--headers', help='Headers (key:value,key:value...)')
 parser.add_argument('--params', help='GET request parametes (key:value,key:value...)')
 parser.add_argument('-sc','--special_char',help='special char and file or list')
 parser.add_argument('--cookies',help='add cookies (key:value,key:value...')
-parser.add_argument('-v','--verbouse',help='set verbousity: 1-http status code, 2-headers, 3-full response')
+parser.add_argument('-v','--verbouse',help='set verbousity: 1 to 4 (default 3)')
+parser.add_argument('-d','--data',help='Add data to request body')
 
 args = parser.parse_args()
 
@@ -57,36 +61,63 @@ def replace_substring(original_str, replace_dict):
 def print_based_on_verbousity(level,res,req):
     """
     Just print based-off verbousity level (-v switch)
+    level 1: only status code
+    level 2: status code & response headers
+    level 3, code,response headers & body
+    level 4: full request and response
     """
     if level == '1':
-        print(str(res.status_code))
+        if res.status_code == 200:
+            print(colored(f'[{str(res.status_code)}]\n','green',))
+        else:
+            print(colored(f'[{str(res.status_code)}]\n','red',))
+
     elif level == '2':
-        print(str(res.status_code))
+        if res.status_code == 200:
+            print(colored(f'[{str(res.status_code)}]\n','green',))
+        else:
+            print(colored(f'[{str(res.status_code)}]\n','red',))
         for name, value in res.headers.items():
             print(f"{name}: {value}")
+        print('\n')
+        print('<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
+
     elif level == '3':
-        print(str(res.status_code))
+        if res.status_code == 200:
+            print(colored(f'[{str(res.status_code)}]\n','green',))
+        else:
+            print(colored(f'[{str(res.status_code)}]\n','red',))
         for name, value in res.headers.items():
             print(f"{name}: {value}")
+        print('\n')
         print(res.content.decode())
+        print('<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
+
     elif level == '4':
-        print(req.method+' '+str(req.url),end='')
+        print(req.method+' '+str(req.url),end='\n')
         try:
             if req.params:
-                print(req.params)
+                print(f'{req.params}\n')
         except AttributeError:
             pass
-        print("\nRequest Headers:")
         for name, value in req.headers.items():
             print(f"{name}: {value}")
+        try:
+            if req.read() is not None:
+                print(f'\n{req.read().decode()}\n')
+        except AttributeError:
+            print('error')
+            pass
+        print('\n')
+        if res.status_code == 200:
+            print(colored(f'[{str(res.status_code)}]\n','green',))
+        else:
+            print(colored(f'[{str(res.status_code)}]\n','red',))
         for name, value in res.headers.items():
             print(f"{name}: {value}")
+        print('\n')
         print(res.content.decode())
-    else:
-        print(str(res.status_code))
-        for name, value in res.headers.items():
-            print(f"{name}: {value}")
-        print(res.content.decode())
+        print('<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
 print(parser.prog + '\n' + parser.description + '\n' + '\n')
 
@@ -97,11 +128,8 @@ if args.target is None:
 else:
     TARGET=args.target
 
-if args.method != '':
+if args.method is not None:
     METHOD = args.method
-    
-else:
-    METHOD = 'GET'
 
 if args.verbouse is not None:
     LEVEL=args.verbouse
@@ -116,6 +144,9 @@ if args.headers is not None:
 if args.params is not None:
     PARAMS=stringtodict(args.params)
 
+if args.data is not None:
+    DATA=stringtodict(args.data) 
+
 if args.special_char is not None:
     client = httpx.Client()
     RANGES = None
@@ -128,6 +159,10 @@ if args.special_char is not None:
             perms[thiskey] = []
             for n in RANGES:
                 perms[thiskey].append(n)
+        elif value.endswith('.txt'):
+            with open(f'./lists/{value}', 'r') as file:
+                lines = file.readlines() 
+                perms[thiskey]= [line.strip() for line in lines]
         else:
             perms[thiskey] = list(value)
 
@@ -144,15 +179,31 @@ if args.special_char is not None:
         newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
         newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
         newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
+        newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
 
-        request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies)
-        response = client.send(request)
-        print_based_on_verbousity(LEVEL,response,request)
+        if METHOD == 'POST':
+            newHeaders['content-type'] = 'application/json'
+            newData = json.dumps(newData)
+
+        request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
+        
+        try:
+            response = client.send(request)
+            print_based_on_verbousity(LEVEL,response,request)
+        except ConnectionError:
+            print(colored("CONNECTION ERROR!",'red'))
+        
     client.close()
 
 else:
     client = httpx.Client()
-    request = httpx.Request(METHOD,url=TARGET,headers=HEADERS,params=PARAMS,cookies=COOKIES)
-    response = client.send(request)
-    print_based_on_verbousity(LEVEL,response,request)
+
+    try:
+        request = httpx.Request(method=METHOD,url=TARGET,headers=HEADERS,params=PARAMS,cookies=COOKIES,data=DATA)
+        response = client.send(request)
+        print_based_on_verbousity(LEVEL,response,request)
+
+    except httpx.ConnectError:
+        print(colored("CONNECTION ERROR!",'red'))
+
     client.close()
