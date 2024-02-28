@@ -23,13 +23,13 @@ python3 intruderx.py -t http://localhost/ -m GET --params param1:example,param2:
 
 Request will look like:
 
-GET /?param1=example&param2=example
-host: localhost:3000
-h1: example
-content-length: 3
-content-type: application/x-www-form-urlencoded
+GET /?param1=example&param2=example<br />
+host: localhost:3000<br />
+h1: example<br />
+content-length: 3<br />
+content-type: application/x-www-form-urlencoded<br />
 
-a=1
+a=1<br />
 
 Now the fun part.
 You can use the -sc switch (--special_char) followed by a key-value pair where key is the special char and the value is the list of objects to iterate by replacing his special char.
@@ -42,22 +42,22 @@ python3 intruderx.py -t http://localhost:3000/ -m POST --headers exapleheader:$ 
 
 this will send from: 
 
-POST http://localhost:3000/
-host: localhost:3000
-exapleheader: 0       <----
-content-type: application/json
-content-length: 10
+POST http://localhost:3000/<br />
+host: localhost:3000<br />
+exapleheader: 0       <----<br />
+content-type: application/json<br />
+content-length: 10<br />
 
-{"a": "a"}  <--- 
+{"a": "a"}  <--- <br />
 
 
 to:
 
 
-POST http://localhost:3000/
-host: localhost:3000
-exapleheader: 2       <----
-content-type: application/json
-content-length: 10
+POST http://localhost:3000/<br />
+host: localhost:3000<br />
+exapleheader: 2       <----<br />
+content-type: application/json<br />
+content-length: 10<br />
 
-{"a": "c"}     <----
+{"a": "c"}     <----<br />
