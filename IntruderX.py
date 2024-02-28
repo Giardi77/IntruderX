@@ -23,7 +23,7 @@ OMITS=None
 parser = argparse.ArgumentParser(prog=LOGO,
                     description='\t𝐀𝐥𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐯𝐞 𝐭𝐨 𝐁𝐮𝐫𝐩\'𝐬 𝐈𝐧𝐭𝐫𝐮𝐝𝐞𝐫 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐨𝐩 𝐨𝐟 𝐡𝐭𝐭𝐩𝐱',)
 
-parser.add_argument('-t','--target',help='Set the target (-u https://localhost:1234)')
+parser.add_argument('-t','--target',help='Set the target (-u https://localhost:1234)',required=True)
 parser.add_argument('-m','--method', help='set GET or POST request')
 parser.add_argument('-H','--headers', help='Headers (key:value,key:value...)')
 parser.add_argument('--params', help='GET request parametes (key:value,key:value...)')
@@ -90,7 +90,6 @@ def print_based_on_verbousity(level,res,req):
             print(colored(f'[{str(res.status_code)}]\n','red',))
         for name, value in res.headers.items():
             print(f"{name}: {value}")
-        print('\n')
         print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
     elif level == '3':
@@ -119,7 +118,6 @@ def print_based_on_verbousity(level,res,req):
         except AttributeError:
             print('error')
             pass
-        print('\n')
         if res.status_code == 200:
             print(colored(f'[{str(res.status_code)}]\n','green',))
         else:
