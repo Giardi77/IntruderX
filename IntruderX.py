@@ -148,10 +148,7 @@ def save_found_match(req,res):
             print('error')
             pass
         file.write('\n')
-        if res.status_code == 200:
-            file.write(f'[{str(res.status_code)}]\n')
-        else:
-            file.write(f'[{str(res.status_code)}]\n')
+        file.write(f'[{str(res.status_code)}]\n')
         for name, value in res.headers.items():
             file.write(f"{name}: {value}\n")
         file.write('\n')
