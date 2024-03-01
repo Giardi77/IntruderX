@@ -10,7 +10,7 @@ I got really annoyed by the slowness and limitations on burp suite community's i
 
 ## How does it work
 
-![Alternative to burp's intruder built on top of httpx](Screenshot 2024-03-01 alle 11.59.15.png)
+![IntruderX menu](https://github.com/Giardi77/IntruderX/blob/main/Screenshot%202024-03-01%20alle%2011.59.15.png?raw=true)
 
 I've tried my best to make it super easy and comprehesible, the main feature of this tool is that you can easily add more stuff.
 
