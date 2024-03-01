@@ -34,7 +34,7 @@ special chars can be used anywhere except for the target.
 
 to this last combination
 
-![](https://github.com/Giardi77/IntruderX/blob/main/IntruderX%20Tutorial%20images/Combinations%20first.png?raw=true)
+![](https://github.com/Giardi77/IntruderX/blob/main/IntruderX%20Tutorial%20images/Combinations%20last.png?raw=true)
 
 you can also use the --inclues or --omits switch to check i a certain string in present or not in a response, if the condition is reached the request it get's saved in a file. (under outputs dir)
 
