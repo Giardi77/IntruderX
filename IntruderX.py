@@ -19,6 +19,7 @@ LOGO= "\n\n    _____         _                     _           __   __\n   |_   
 WAIT=None
 INCLUDES=None
 OMITS=None
+DEFAULTUSERAGENT = {'User-Agent':'IntruderX 1.0'}
 
 parser = argparse.ArgumentParser(prog=LOGO,
                     description='\t𝐀𝐥𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐯𝐞 𝐭𝐨 𝐁𝐮𝐫𝐩\'𝐬 𝐈𝐧𝐭𝐫𝐮𝐝𝐞𝐫 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐨𝐩 𝐨𝐟 𝐡𝐭𝐭𝐩𝐱',)
@@ -172,8 +173,12 @@ if args.cookies is not None:
     COOKIES = stringtodict(args.cookies)
     print(COOKIES)
 
-if args.headers is not None:
+if args.headers:
     HEADERS=stringtodict(args.headers)
+    if 'user-agent' not in [k.lower() for k in HEADERS.keys()]:
+        HEADERS.update(DEFAULTUSERAGENT)
+else:
+    HEADERS = DEFAULTUSERAGENT
 
 if args.params is not None:
     PARAMS=stringtodict(args.params)
