@@ -1,0 +1,6 @@
+every
+object
+separeated
+by
+a
+line
