@@ -8,7 +8,7 @@ import httpx
 import json
 
 
-DATA={}
+DATA=None
 TARGET=None
 HEADERS={}
 PARAMS={}
@@ -228,14 +228,17 @@ if args.special_char is not None:
         newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
         newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
         newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
-        newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
 
         if METHOD == 'POST':
             newHeaders['content-type'] = 'application/json'
-            newData = json.dumps(newData)
 
-        request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
-        
+        if DATA:
+            newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
+            newData = json.dumps(newData)
+            request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
+        else:
+            request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies)
+
         try:
             response = client.send(request)
             print_based_on_verbousity(LEVEL,response,request)
