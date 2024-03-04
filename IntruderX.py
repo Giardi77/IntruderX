@@ -52,7 +52,7 @@ def stringtodict(input_string)->dict:
     pairs = input_string.split(',')
     result_dict = {}
     for pair in pairs:
-        key, value = pair.split(':')
+        key, value = pair.split(':',1)
         result_dict[key.strip()] = value.strip()
     return result_dict
 
