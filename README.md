@@ -1,8 +1,10 @@
 # IntruderX - An alternative to Burp's intruder
 
-I got really annoyed by the slowness and limitations on burp suite community's intruder, so i decided to try and make my version of it.
 
 ![IntruderX menu](https://github.com/Giardi77/IntruderX/blob/main/IntruderX%20Tutorial%20images/LOGO.png?raw=true)
+
+I got really annoyed by the slowness and limitations on burp suite community's intruder, so i decided to try and make my version of it.
+
 
 ## Setup
 
