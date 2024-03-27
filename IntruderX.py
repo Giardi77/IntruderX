@@ -21,6 +21,7 @@ INCLUDES=None
 OMITS=None
 DEFAULTUSERAGENT = {'User-Agent':'IntruderX 1.0'}
 CODES={}
+STATUS=None
 
 
 parser = argparse.ArgumentParser(prog=LOGO,
@@ -37,6 +38,7 @@ parser.add_argument('-d','--data',help='Add data to request body')
 parser.add_argument('-w','--wait',help='delay in seconds after sending a request')
 parser.add_argument('--includes',help='check if a string is included')
 parser.add_argument('--omits',help='check if a string is omitted')
+parser.add_argument('-s','--status',help='check for a stats code in order to save the req/res in the file')
 
 args = parser.parse_args()
 
@@ -166,7 +168,6 @@ def print_based_on_verbousity(level,res,req):
 
 def save_found_match(req,res):
 
-
     if TARGET.startswith('http://'):
         url =  TARGET[len('http://'):]
     elif TARGET.startswith('https://'):
@@ -177,7 +178,7 @@ def save_found_match(req,res):
     filename= f'./outputs/{url}.txt'
 
     with open(filename, 'a') as file:
-        file.write(str(req.url) + '\n')
+        file.write(str(req.url) + '\n\n\n')
         try:
             if req.params:
                 file.write(f'{req.params}\n')
@@ -187,10 +188,9 @@ def save_found_match(req,res):
             file.write(f"{name}: {value}\n")
         try:
             if req.read() is not None:
-                file.write(f'\n{req.read().decode()}\n\n')
+                file.write(f'\n{req.read().decode()}\n')
         except AttributeError:
             print('error')
-        file.write('\n')
         file.write(f'[{str(res.status_code)}]\n')
         for name, value in res.headers.items():
             file.write(f"{name}: {value}\n")
@@ -238,6 +238,9 @@ if args.includes is not None:
 if args.omits is not None:
     OMITS=args.omits
 
+if args.status is not None:
+    STATUS = args.status
+
 #endregion
 
 if args.special_char is not None:
@@ -270,13 +273,24 @@ if args.special_char is not None:
                 print_based_on_verbousity(LEVEL,response,request)
                 if OMITS:
                     if OMITS not in response.content.decode():
-                        save_found_match(request,response)
-                        MATCHING+=1
+                        if STATUS :
+                            if response.status_code == STATUS:
+                                save_found_match(request,response)
+                                MATCHING+=1
+                        else:
+                            save_found_match(request,response)
+                            MATCHING+=1
                 if INCLUDES:
                     if INCLUDES in response.content.decode():
-                        print(response.content.decode())
                         save_found_match(request,response)
                         MATCHING+=1
+                        if STATUS :
+                            if response.status_code == STATUS:
+                                save_found_match(request,response)
+                                MATCHING+=1
+                        else:
+                            save_found_match(request,response)
+                            MATCHING+=1
 
                 if WAIT is not None:
                     sleep(WAIT)
