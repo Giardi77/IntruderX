@@ -6,6 +6,7 @@ import argparse
 import sys
 import httpx
 import json
+import os
 
 
 DATA=None
@@ -20,6 +21,7 @@ WAIT=None
 INCLUDES=None
 OMITS=None
 DEFAULTUSERAGENT = {'User-Agent':'IntruderX 1.0'}
+CODES={}
 
 
 parser = argparse.ArgumentParser(prog=LOGO,
@@ -40,6 +42,33 @@ parser.add_argument('--omits',help='check if a string is omitted')
 args = parser.parse_args()
 
 print(parser.prog + '\n' + parser.description + '\n' + '\n')
+
+def combos(chars):
+
+    char = stringtodict(chars)
+
+    perms = {}
+    for value in char.values():
+        thiskey = [key for key, thisvalue in char.items() if thisvalue == value][0]
+        if value.startswith('range(') :
+            RANGES = eval(value)
+            perms[thiskey] = []
+            for n in RANGES:
+                perms[thiskey].append(n)
+        elif value.endswith('.txt'):
+            with open(f'./lists/{value}', 'r') as file:
+                lines = file.readlines() 
+                perms[thiskey]= [line.strip() for line in lines]
+                perms[thiskey] = [line for line in perms[thiskey] if line != '']
+        else:
+            perms[thiskey] = list(value)
+
+    keys = list(perms.keys())
+    iterables = list(perms.values())
+
+    result_product = list(product(*iterables))
+
+    return result_product,keys
 
 def stringtodict(input_string)->dict:
     """
@@ -79,13 +108,19 @@ def print_based_on_verbousity(level,res,req):
     level 3, code,response headers & body
     level 4: full request and response
     """
+    if res.status_code in CODES:
+        CODES[res.status_code] += 1
+    else:
+        CODES[res.status_code] = 1
+
     if level == '1':
-        if res.status_code == 200:
-            print(colored(f'[{str(res.status_code)}]\n','green',))
-        else:
-            print(colored(f'[{str(res.status_code)}]\n','red',))
+        sys.stdout.write('\r' + ' ' * 50 + '\r')
+        sys.stdout.flush()
+        for key, value in CODES.items():
+            print(f"[{key}] x {value}\t",end='',flush=True)
 
     elif level == '2':
+        print(req.method+' '+str(req.url),end='\n')
         if res.status_code == 200:
             print(colored(f'[{str(res.status_code)}]\n','green',))
         else:
@@ -95,6 +130,7 @@ def print_based_on_verbousity(level,res,req):
         print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
     elif level == '3':
+        print(req.method+' '+str(req.url),end='\n')
         if res.status_code == 200:
             print(colored(f'[{str(res.status_code)}]\n','green',))
         else:
@@ -131,9 +167,9 @@ def print_based_on_verbousity(level,res,req):
         print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
 def save_found_match(req,res):
-    current_date_time = datetime.now()
-    formatted_date_time = current_date_time.strftime("%Y-%m-%d|%H-%M-%S")
-    filename= f'./outputs/{formatted_date_time}.txt'
+
+    filename= f'./outputs/{TARGET}.txt'
+
     with open(filename, 'a') as file:
         file.write(str(req.url) + '\n')
         try:
@@ -156,6 +192,8 @@ def save_found_match(req,res):
         file.write('\n')
         file.write(res.content.decode())
         file.write('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
+
+#region args settings  
 
 if args.target is None:
     print("\n Set a target with -t switch (-t https://127.0.0.1/)")
@@ -196,69 +234,57 @@ if args.includes is not None:
 if args.omits is not None:
     OMITS=args.omits
 
+#endregion
+
 if args.special_char is not None:
-    MATCHING=0
-    client = httpx.Client()
-    RANGES = None
-    char = stringtodict(args.special_char)
-    perms = {}
-    for value in char.values():
-        thiskey = [key for key, thisvalue in char.items() if thisvalue == value][0]
-        if value.startswith('range(') :
-            RANGES = eval(value)
-            perms[thiskey] = []
-            for n in RANGES:
-                perms[thiskey].append(n)
-        elif value.endswith('.txt'):
-            with open(f'./lists/{value}', 'r') as file:
-                lines = file.readlines() 
-                perms[thiskey]= [line.strip() for line in lines]
-                perms[thiskey] = [line for line in perms[thiskey] if line != '']
-        else:
-            perms[thiskey] = list(value)
+    try:
+        MATCHING=0
+        RANGES = None
+        client = httpx.Client()
 
-    keys = list(perms.keys())
-    iterables = list(perms.values())
+        result_product,keys = combos(args.special_char)
 
-    result_product = list(product(*iterables))
+        for combination in result_product:
+            result_dict = dict(zip(keys, combination))
 
-    for combination in result_product:
-        result_dict = dict(zip(keys, combination))
+            newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
+            newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
+            newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
 
-        newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
-        newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
-        newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
+            if METHOD == 'POST':
+                newHeaders['content-type'] = 'application/json'
 
-        if METHOD == 'POST':
-            newHeaders['content-type'] = 'application/json'
+            if DATA:
+                newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
+                newData = json.dumps(newData)
+                request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
+            else:
+                request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies)
 
-        if DATA:
-            newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
-            newData = json.dumps(newData)
-            request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
-        else:
-            request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies)
+            try:
+                response = client.send(request)
+                print_based_on_verbousity(LEVEL,response,request)
+                if OMITS:
+                    if OMITS not in response.content.decode():
+                        save_found_match(request,response)
+                        MATCHING+=1
+                if INCLUDES:
+                    if INCLUDES in response.content.decode():
+                        save_found_match(request,response)
+                        MATCHING+=1
 
-        try:
-            response = client.send(request)
-            print_based_on_verbousity(LEVEL,response,request)
-            if OMITS:
-                if OMITS not in response.content.decode():
-                    save_found_match(request,response)
-                    MATCHING+=1
-            if INCLUDES:
-                if INCLUDES in response.content.decode():
-                    save_found_match(request,response)
-                    MATCHING+=1
+                if WAIT is not None:
+                    sleep(WAIT)
 
-            if WAIT is not None:
-                sleep(WAIT)
-        except ConnectionError:
-            print(colored("CONNECTION ERROR!",'red'))
-        
-    if MATCHING > 0:
-        print(f"GOOD NEWS FOUND {MATCHING} MATCHINGS")
-    client.close()
+            except ConnectionError:
+                print(colored("CONNECTION ERROR!",'red'))
+            
+        if MATCHING > 0:
+            print(f"GOOD NEWS FOUND {MATCHING} MATCHINGS")
+        client.close()
+
+    except KeyboardInterrupt:
+        print("\n\n\n Exit ...")
 
 else:
     client = httpx.Client()
