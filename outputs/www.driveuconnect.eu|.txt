@@ -1,0 +1,3475 @@
+https://www.driveuconnect.eu/?t=access-token
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=account
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=accounts
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=amount
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=balance
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=balances
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=bar
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=baz
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=bio
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=bios
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=category
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=channel
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=chart
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=circular
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=company
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=content
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=contract
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=coordinate
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=credentials
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=creds
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=custom
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=customer
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:18 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=customers
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=details
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=dir
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=directory
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=dob
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=email
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=employee
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=event
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=favorite
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=feed
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=foo
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=form
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=github
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=gmail
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=group
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=history
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=image
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=info
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=item
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=job
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=link
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=links
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=location
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=log
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=login
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=logins
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=logs
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=map
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=member
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=members
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=messages
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=money
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=my
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=name
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=names
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=news
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=option
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=options
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=pass
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=password
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=passwords
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=phone
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=picture
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=pin
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=post
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=prod
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=production
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=profile
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=profiles
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=publication
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=record
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=sale
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=sales
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=set
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=setting
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=settings
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=setup
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=site
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=test
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=theme
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=token
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=tokens
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=twitter
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=union
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=url
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=user
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=username
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=users
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=vendor
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=vendors
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=version
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=website
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=work
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=yahoo
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:33:19 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=access-token
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=account
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=accounts
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=amount
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=balance
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=balances
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=bar
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=baz
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=bio
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=bios
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=category
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=channel
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=chart
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=circular
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=company
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=content
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=contract
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=coordinate
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=credentials
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=creds
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=custom
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=customer
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=customers
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=details
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=dir
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=directory
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=dob
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=email
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=employee
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=event
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=favorite
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=feed
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=foo
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=form
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=github
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=gmail
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=group
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=history
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=image
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=info
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=item
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=job
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://www.driveuconnect.eu/?t=link
+
+
+host: www.driveuconnect.eu
+user-agent: IntruderX 1.0
+
+
+[302]
+date: Wed, 27 Mar 2024 11:45:57 GMT
+server: Apache
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+location: https://www.driveuconnect.eu/UserPortal/?t=landing.app&app-theme=mopar
+content-length: 258
+content-type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.driveuconnect.eu/UserPortal/?t=landing.app&amp;app-theme=mopar">here</a>.</p>
+</body></html>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
