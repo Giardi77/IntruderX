@@ -1,12 +1,11 @@
 from itertools import product
-from termcolor import colored
-from datetime import datetime
 from time import sleep
 import argparse
+import json
 import sys
 import httpx
-import json
-import os
+from termcolor import colored
+
 
 
 DATA=None
@@ -44,10 +43,9 @@ args = parser.parse_args()
 print(parser.prog + '\n' + parser.description + '\n' + '\n')
 
 def combos(chars):
-
     char = stringtodict(chars)
-
     perms = {}
+
     for value in char.values():
         thiskey = [key for key, thisvalue in char.items() if thisvalue == value][0]
         if value.startswith('range(') :
@@ -57,18 +55,18 @@ def combos(chars):
                 perms[thiskey].append(n)
         elif value.endswith('.txt'):
             with open(f'./lists/{value}', 'r') as file:
-                lines = file.readlines() 
+                lines = file.readlines()
                 perms[thiskey]= [line.strip() for line in lines]
                 perms[thiskey] = [line for line in perms[thiskey] if line != '']
         else:
             perms[thiskey] = list(value)
 
-    keys = list(perms.keys())
+    tot_keys = list(perms.keys())
     iterables = list(perms.values())
 
-    result_product = list(product(*iterables))
+    result = list(product(*iterables))
 
-    return result_product,keys
+    return result,tot_keys
 
 def stringtodict(input_string)->dict:
     """
@@ -168,7 +166,15 @@ def print_based_on_verbousity(level,res,req):
 
 def save_found_match(req,res):
 
-    filename= f'./outputs/{TARGET}.txt'
+
+    if TARGET.startswith('http://'):
+        url =  TARGET[len('http://'):]
+    elif TARGET.startswith('https://'):
+        url = TARGET[len('https://'):]
+
+    url = url.replace("/","|")
+    
+    filename= f'./outputs/{url}.txt'
 
     with open(filename, 'a') as file:
         file.write(str(req.url) + '\n')
@@ -184,7 +190,6 @@ def save_found_match(req,res):
                 file.write(f'\n{req.read().decode()}\n\n')
         except AttributeError:
             print('error')
-            pass
         file.write('\n')
         file.write(f'[{str(res.status_code)}]\n')
         for name, value in res.headers.items():
@@ -193,8 +198,7 @@ def save_found_match(req,res):
         file.write(res.content.decode())
         file.write('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
-#region args settings  
-
+#region args settings
 if args.target is None:
     print("\n Set a target with -t switch (-t https://127.0.0.1/)")
     sys.exit()
@@ -223,7 +227,7 @@ if args.params is not None:
     PARAMS=stringtodict(args.params)
 
 if args.data is not None:
-    DATA=stringtodict(args.data) 
+    DATA=stringtodict(args.data)
 
 if args.wait is not None:
     WAIT=int(args.wait)
@@ -270,6 +274,7 @@ if args.special_char is not None:
                         MATCHING+=1
                 if INCLUDES:
                     if INCLUDES in response.content.decode():
+                        print(response.content.decode())
                         save_found_match(request,response)
                         MATCHING+=1
 
@@ -278,7 +283,7 @@ if args.special_char is not None:
 
             except ConnectionError:
                 print(colored("CONNECTION ERROR!",'red'))
-            
+
         if MATCHING > 0:
             print(f"GOOD NEWS FOUND {MATCHING} MATCHINGS")
         client.close()
