@@ -241,12 +241,15 @@ if args.omits is not None:
 if args.status is not None:
     STATUS = args.status
 
+if args.special_char is None:
+    print('\n Use curl if you want to make just 1 request. \n')
+    sys.exit()
+
 #endregion
 
-if args.special_char is not None:
+def main():
     try:
         MATCHING=0
-        RANGES = None
         client = httpx.Client()
 
         result_product,keys = combos(args.special_char)
@@ -304,16 +307,8 @@ if args.special_char is not None:
 
     except KeyboardInterrupt:
         print("\n\n\n Exit ...")
+        sys.exit()
 
-else:
-    client = httpx.Client()
 
-    try:
-        request = httpx.Request(method=METHOD,url=TARGET,headers=HEADERS,params=PARAMS,cookies=COOKIES,data=DATA)
-        response = client.send(request)
-        print_based_on_verbousity(LEVEL,response,request)
-
-    except httpx.ConnectError:
-        print(colored("CONNECTION ERROR!",'red'))
-
-    client.close()
+if __name__ == "__main__":
+    main()
