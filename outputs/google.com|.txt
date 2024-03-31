@@ -1,0 +1,696 @@
+https://google.com/?p=a
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-wOVsIxiSgUesKUVltLu6OQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:13 GMT
+expires: Sat, 27 Apr 2024 19:04:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-eudsnL96ATPiUANambYCRA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:13 GMT
+expires: Sat, 27 Apr 2024 19:04:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 3
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-cr2ivE5H3A3qoVmVJbTWLA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:13 GMT
+expires: Sat, 27 Apr 2024 19:04:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 4
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-H9cXF-0xkW7o_PfW0RRmJw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:13 GMT
+expires: Sat, 27 Apr 2024 19:04:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-T2rHnA_nMmIsDxS0hG4zVA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:13 GMT
+expires: Sat, 27 Apr 2024 19:04:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-ubg8dmXkYAEK2RQTZ8nXcA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:14 GMT
+expires: Sat, 27 Apr 2024 19:04:14 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 3
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-_og8HFkwexo1XDTDWoBfyA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:14 GMT
+expires: Sat, 27 Apr 2024 19:04:14 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 4
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-gp2V1NHnd4ahUN0XRzOwPQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:14 GMT
+expires: Sat, 27 Apr 2024 19:04:14 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=c
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=c
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-jWUE2I6bz9YaP87f3a9fAg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:15 GMT
+expires: Sat, 27 Apr 2024 19:04:15 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=c">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=c
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=c
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-_P1qRC152mTJF3LZeVcR8g' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:15 GMT
+expires: Sat, 27 Apr 2024 19:04:15 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=c">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=c
+
+
+host: google.com
+x: 3
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=c
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-AXDCk2FJ2vxUdTpm9yf7LA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:15 GMT
+expires: Sat, 27 Apr 2024 19:04:15 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=c">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=c
+
+
+host: google.com
+x: 4
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=c
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-w2e3jhvNkKSxwdYeF5wTTQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:16 GMT
+expires: Sat, 27 Apr 2024 19:04:16 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=c">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=d
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=d
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-TafssE0vV-LEWVVt_UXbiw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:16 GMT
+expires: Sat, 27 Apr 2024 19:04:16 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=d">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=d
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=d
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-Ot72ZeBtt7sqihiMyr9J1g' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:16 GMT
+expires: Sat, 27 Apr 2024 19:04:16 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=d">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=d
+
+
+host: google.com
+x: 3
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=d
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-PwDiOvuzxeSxztPQvrq3lw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:16 GMT
+expires: Sat, 27 Apr 2024 19:04:16 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=d">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=d
+
+
+host: google.com
+x: 4
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=d
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-ukmpSxfT2xWsDNTePjl_wA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 28 Mar 2024 19:04:17 GMT
+expires: Sat, 27 Apr 2024 19:04:17 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=d">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-INMCtSQ5zH7_Mv_QkuZjUA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:12 GMT
+expires: Sun, 28 Apr 2024 10:00:12 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-YSsBcXnF4J9aHIEzzvpRHg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-lpVZeUajCEmwa9wo8EAAkA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=a
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=a
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-Bs18_-W9P4tJE-gBDBqnMw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=a">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-NI3ZAeVU9Hb1mYcfhRQjSQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 1
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-n7tiDF5ym4pQ6-YyFDmS-A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-dT6AMhB52jXKPrSfD5mkWA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>
+https://google.com/?p=b
+
+
+host: google.com
+x: 2
+user-agent: IntruderX 1.0
+
+
+[301]
+location: https://www.google.com/?p=b
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-GY-yoVeCKVZOyUeKcIzaDA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Fri, 29 Mar 2024 10:00:13 GMT
+expires: Sun, 28 Apr 2024 10:00:13 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 224
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/?p=b">here</A>.
+</BODY></HTML>
+
+<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>

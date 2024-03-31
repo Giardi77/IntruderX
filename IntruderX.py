@@ -6,8 +6,6 @@ import sys
 import httpx
 from termcolor import colored
 
-
-
 DATA=None
 TARGET=None
 HEADERS={}
@@ -44,7 +42,10 @@ args = parser.parse_args()
 
 print(parser.prog + '\n' + parser.description + '\n' + '\n')
 
-def combos(chars):
+def combos(chars)-> list:
+    """
+    returns all the combinations in a list from the input given on the argument
+    """
     char = stringtodict(chars)
     perms = {}
 
@@ -75,8 +76,8 @@ def stringtodict(input_string)->dict:
     Converts a string of comma-separated key-value pairs into a dictionary.
 
     Example:
-    >>> stringtodict("name:John, age:30, city:New York")
-    {'name': 'John', 'age': '30', 'city': 'New York'}
+    >>> x = stringtodict("name:John, age:30, city:New York")
+    x is -> {'name': 'John', 'age': '30', 'city': 'New York'}
     """
     pairs = input_string.split(',')
     result_dict = {}
@@ -85,25 +86,22 @@ def stringtodict(input_string)->dict:
         result_dict[key.strip()] = value.strip()
     return result_dict
 
-def replace_substring(original_str, replace_dict):
+def replace_substring(original_str, replace_dict)-> str:
     """
-    Replaces substrings in a given string based on a dictionary of replacements.
-
-    Returns:
-    str: The modified string after performing the specified substitutions.
+    Replaces specific part from a string based on a dictionary of replacements.
 
     Example:
-    >>> replace_substring("Hello, [name]!", {"[name]": "John"})
-    'Hello, John!'
+    >>> replace_substring("Hello, [is] [name]!", {"[name]": "John", "[is]":"Mr."})
+    'Hello, Mr. John!'
     """
     for key, value in replace_dict.items():
         original_str = original_str.replace(key, str(value))
     return original_str
 
-def print_based_on_verbousity(level,res,req):
+def print_based_on_verbousity(level,res,req) -> None:
     """
     Just print based-off verbousity level (-v switch)
-    level 1: only status code
+    level 1: only status codes
     level 2: status code & response headers
     level 3, code,response headers & body
     level 4: full request and response
@@ -166,8 +164,10 @@ def print_based_on_verbousity(level,res,req):
         print(res.content.decode())
         print('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
-def save_found_match(req,res):
-
+def save_found_match(req,res)-> None:
+    """
+    Just takes request and responses and saves them on a file named as the url or the target
+    """
     if TARGET.startswith('http://'):
         url =  TARGET[len('http://'):]
     elif TARGET.startswith('https://'):
@@ -198,10 +198,17 @@ def save_found_match(req,res):
         file.write(res.content.decode())
         file.write('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
-#region args settings
+def statustolist(s) ->list:
+    """
+    Gets a comma separated list of values as single string and returns a List of Strings
+    """
+    StatusList= s.split(',')
+    return StatusList
+
+#region ARGS TO VARS
 if args.target is None:
     print("\n Set a target with -t switch (-t https://127.0.0.1/)")
-    sys.exit()
+    sys.exit(2)
 
 else:
     TARGET=args.target
@@ -239,11 +246,11 @@ if args.omits is not None:
     OMITS=args.omits
 
 if args.status is not None:
-    STATUS = args.status
+    STATUS = statustolist(args.status)
 
 if args.special_char is None:
     print('\n Use curl if you want to make just 1 request. \n')
-    sys.exit()
+    sys.exit("coglione")
 
 #endregion
 
@@ -257,6 +264,7 @@ def main():
         for combination in result_product:
             result_dict = dict(zip(keys, combination))
 
+#AND BOOM CORRECT HEADER!<-SUBSTITUTES WITH CURRENT'S ITERATION VALUES<-GET KEY AND VALUE FROM THE DICT
             newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
             newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
             newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
@@ -277,7 +285,7 @@ def main():
                 if OMITS:
                     if OMITS not in response.content.decode():
                         if STATUS :
-                            if response.status_code == STATUS:
+                            if response.status_code in STATUS:
                                 save_found_match(request,response)
                                 MATCHING+=1
                         else:
@@ -288,22 +296,28 @@ def main():
                         save_found_match(request,response)
                         MATCHING+=1
                         if STATUS :
-                            if response.status_code == STATUS:
+                            if response.status_code in STATUS:
                                 save_found_match(request,response)
                                 MATCHING+=1
                         else:
                             save_found_match(request,response)
                             MATCHING+=1
+                if INCLUDES is None and OMITS is None and STATUS:
+                    if str(response.status_code) in STATUS:
+                        save_found_match(request,response)
+                        MATCHING+=1
 
                 if WAIT is not None:
                     sleep(WAIT)
 
             except ConnectionError:
                 print(colored("CONNECTION ERROR!",'red'))
+                sys.exit(1)
 
         if MATCHING > 0:
             print(f"GOOD NEWS FOUND {MATCHING} MATCHINGS")
         client.close()
+        sys.exit(0)
 
     except KeyboardInterrupt:
         print("\n\n\n Exit ...")
