@@ -57,7 +57,7 @@ def combos(chars)-> list:
             for n in RANGES:
                 perms[thiskey].append(n)
         elif value.endswith('.txt'):
-            with open(f'./lists/{value}', 'r') as file:
+            with open(f'{value}', 'r') as file:
                 lines = file.readlines()
                 perms[thiskey]= [line.strip() for line in lines]
                 perms[thiskey] = [line for line in perms[thiskey] if line != '']
