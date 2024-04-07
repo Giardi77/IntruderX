@@ -264,7 +264,6 @@ def main():
         for combination in result_product:
             result_dict = dict(zip(keys, combination))
 
-#AND BOOM CORRECT HEADER!<-SUBSTITUTES WITH CURRENT'S ITERATION VALUES<-GET KEY AND VALUE FROM THE DICT
             newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
             newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
             newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
