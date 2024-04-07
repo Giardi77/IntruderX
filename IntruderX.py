@@ -249,7 +249,7 @@ if args.status is not None:
     STATUS = statustolist(args.status)
 
 if args.special_char is None:
-    print('\n Use curl if you want to make just 1 request. \n')
+    print('\n Consider to use curl if you want to make just 1 request. \n')
     sys.exit("coglione")
 
 #endregion
