@@ -1,3 +1,5 @@
+#! /user/bin/python3
+
 from itertools import product
 from time import sleep
 import argparse
