@@ -34,7 +34,7 @@ Let's add all of that.
 Now the fun part.
 You can use the -sc switch (--special_char) followed by a key-value pair where key is the special char and the value is the list of objects to iterate by replacing his special char.
 
-Special char can be ranges of numbers like "range(10)" (from 0 to 9) or list of char like "abcde" or list of lines of a file .txt (must put the file on lists folder).
+Special char can be ranges of numbers like "range(10)" (from 0 to 9) or list of char like "abcde" or list of lines of a file .txt (just give the right path to it).
 special chars can be used anywhere except for the target.
 
 
