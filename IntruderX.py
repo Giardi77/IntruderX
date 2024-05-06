@@ -8,6 +8,7 @@ import httpx
 from termcolor import colored
 import os
 import multiprocessing
+import random
 
 DATA=None
 TARGET=None
@@ -25,6 +26,7 @@ CODES={} # -> just for level 1 verbosity
 STATUS=None
 PROCESSES=1
 SAVE=False
+LOADEDUSERAGENTS=[]
 
 
 parser = argparse.ArgumentParser(prog=LOGO,
@@ -44,6 +46,7 @@ parser.add_argument('--omits', help='check if a string is omitted',)
 parser.add_argument('-s','--status', help='check for a stats code in order to save the req/res in the file')
 parser.add_argument('-pr','--processes', help='divide the requests in different processes to achieve more speed, you can use \'max\' to use the maximum available on your system')
 parser.add_argument('--save',action='store_true', help='save the requests the responses that meet the requirements from switches like --omits, --includes and --status')
+parser.add_argument('--random','--random-user-agent', action='store_true', help='use a random user agent from file \'user-agents.txt\'')
 
 args = parser.parse_args()
 
@@ -264,6 +267,9 @@ def request_from_combinations(result_product,keys,req_queue,matching_queue) -> N
     for combination in result_product:
             result_dict = dict(zip(keys, combination))
 
+            if args.random:
+                HEADERS['user-agent'] = random.choice(LOADEDUSERAGENTS)
+
             newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
             newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
             newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
@@ -396,7 +402,7 @@ if args.cookies is not None:
 
 if args.headers:
     HEADERS=stringtodict(args.headers)
-    if 'user-agent' not in [k.lower() for k in HEADERS.keys()]:
+    if 'user-agent' not in [k.lower() for k in HEADERS.keys()] and not args.random:
         HEADERS.update(DEFAULTUSERAGENT)
 else:
     HEADERS = DEFAULTUSERAGENT
@@ -431,6 +437,13 @@ if args.processes != 1:
 
 if args.save:
     SAVE = args.save
+
+if args.random:
+    with open('./user-agents.txt', 'r') as file:
+        for line in file:
+            LOADEDUSERAGENTS.append(str(line.strip()))
+
+
     
 
 #endregion
