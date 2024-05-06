@@ -1,5 +1,4 @@
 #! /user/bin/python3
-
 from itertools import product
 from time import sleep
 import argparse
@@ -7,6 +6,8 @@ import json
 import sys
 import httpx
 from termcolor import colored
+import os
+import multiprocessing
 
 DATA=None
 TARGET=None
@@ -20,29 +21,42 @@ WAIT=None
 INCLUDES=None
 OMITS=None
 DEFAULTUSERAGENT = {'User-Agent':'IntruderX 1.0'}
-CODES={}
+CODES={} # -> just for level 1 verbosity 
 STATUS=None
+PROCESSES=1
+SAVE=False
 
 
 parser = argparse.ArgumentParser(prog=LOGO,
                     description='\t𝐀𝐥𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐯𝐞 𝐭𝐨 𝐁𝐮𝐫𝐩\'𝐬 𝐈𝐧𝐭𝐫𝐮𝐝𝐞𝐫 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐨𝐩 𝐨𝐟 𝐡𝐭𝐭𝐩𝐱',)
 
-parser.add_argument('-t','--target',help='Set the target (-u https://localhost:1234)',required=True)
+parser.add_argument('-t','--target', required=True, help='Set the target (-u https://localhost:1234)')
 parser.add_argument('-m','--method', help='set GET or POST request')
 parser.add_argument('-H','--headers', help='Headers (key:value,key:value...)')
 parser.add_argument('--params', help='GET request parametes (key:value,key:value...)')
-parser.add_argument('-sc','--special_char',help='special char and file or list')
-parser.add_argument('--cookies',help='add cookies (key:value,key:value...')
-parser.add_argument('-v','--verbouse',help='set verbousity: 1 to 4 (default 3)')
-parser.add_argument('-d','--data',help='Add data to request body')
-parser.add_argument('-w','--wait',help='delay in seconds after sending a request')
-parser.add_argument('--includes',help='check if a string is included')
-parser.add_argument('--omits',help='check if a string is omitted')
-parser.add_argument('-s','--status',help='check for a stats code in order to save the req/res in the file')
+parser.add_argument('-sc','--special_char', help='special char and file or list')
+parser.add_argument('--cookies', help='add cookies (key:value,key:value...')
+parser.add_argument('-v','--verbouse', help='set verbousity: 1 to 4 (default 3)')
+parser.add_argument('-d','--data', help='Add data to request body')
+parser.add_argument('-w','--wait', help='delay in seconds after sending a request')
+parser.add_argument('--includes', help='check if a string is included')
+parser.add_argument('--omits', help='check if a string is omitted',)
+parser.add_argument('-s','--status', help='check for a stats code in order to save the req/res in the file')
+parser.add_argument('-pr','--processes', help='divide the requests in different processes to achieve more speed, you can use \'max\' to use the maximum available on your system')
+parser.add_argument('--save',action='store_true', help='save the requests the responses that meet the requirements from switches like --omits, --includes and --status')
 
 args = parser.parse_args()
 
-print(parser.prog + '\n' + parser.description + '\n' + '\n')
+
+def dump_queue(queue) -> list:
+    """
+    Empties all pending items in a queue and returns them in a list.
+    """
+    result = []
+
+    for i in iter(queue.get, 'STOP'):
+        result.append(i)
+    return result
 
 def combos(chars)-> list:
     """
@@ -73,9 +87,9 @@ def combos(chars)-> list:
 
     return result,tot_keys
 
-def stringtodict(input_string)->dict:
+def stringtodict(input_string)-> dict:
     """
-    Converts a string of comma-separated key-value pairs into a dictionary.
+    Converts a string of comma-separated (key:value) pairs into a dictionary.
 
     Example:
     >>> x = stringtodict("name:John, age:30, city:New York")
@@ -108,6 +122,7 @@ def print_based_on_verbousity(level,res,req) -> None:
     level 3, code,response headers & body
     level 4: full request and response
     """
+
     if res.status_code in CODES:
         CODES[res.status_code] += 1
     else:
@@ -200,12 +215,166 @@ def save_found_match(req,res)-> None:
         file.write(res.content.decode())
         file.write('\n<+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+><+>\n')
 
-def statustolist(s) ->list:
+def statustolist(s) -> list:
     """
     Gets a comma separated list of values as single string and returns a List of Strings
     """
     StatusList= s.split(',')
     return StatusList
+
+def printer(queue) -> None:
+    '''
+    Reads from the Queue and calls print_based_on_verbosity for every item
+    '''
+
+    try:
+        while True:
+            if not queue.empty():
+                req_res_packed = queue.get()
+                
+                if OMITS or INCLUDES or STATUS:
+                    if OMITS:
+                        if OMITS not in req_res_packed[0].content.decode():
+                            if STATUS :
+                                if req_res_packed[0].status_code in STATUS:
+                                    print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+                            else:
+                                print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+                    if INCLUDES:
+                        if INCLUDES in req_res_packed[0].content.decode():
+                            print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+                            if STATUS :
+                                if req_res_packed[0].status_code in STATUS:
+                                    print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+                            else:
+                                print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+                    if INCLUDES is None and OMITS is None and STATUS:
+                        if str(req_res_packed[0].status_code) in STATUS:
+                            print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+                else:
+                    print_based_on_verbousity(LEVEL,req_res_packed[0],req_res_packed[1])
+
+    except KeyboardInterrupt:
+        sys.exit(0)
+
+def request_from_combinations(result_product,keys,req_queue,matching_queue) -> None:
+    matching = 0
+    client = httpx.Client()
+
+    for combination in result_product:
+            result_dict = dict(zip(keys, combination))
+
+            newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
+            newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
+            newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
+
+            if METHOD == 'POST':
+                newHeaders['content-type'] = 'application/json'
+
+            if DATA:
+                newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
+                newData = json.dumps(newData)
+                request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
+            else:
+                request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies)
+
+            try:
+                response = client.send(request)
+                req_queue.put([response,request])
+                
+                if OMITS:
+                    if OMITS not in response.content.decode():
+                        if STATUS :
+                            if response.status_code in STATUS:
+                                if SAVE:
+                                    save_found_match(request,response)
+                                matching+=1
+                        else:
+                            if SAVE:
+                                save_found_match(request,response)
+                            matching+=1
+                if INCLUDES:
+                    if INCLUDES in response.content.decode():
+                        if SAVE:
+                            save_found_match(request,response)
+                        matching+=1
+                        if STATUS :
+                            if response.status_code in STATUS:
+                                if SAVE:
+                                    save_found_match(request,response)
+                                matching+=1
+                        else:
+                            if SAVE:
+                                save_found_match(request,response)
+                            matching+=1
+                if INCLUDES is None and OMITS is None and STATUS:
+                    if str(response.status_code) in STATUS:
+                        if SAVE:
+                            save_found_match(request,response)
+                        matching+=1
+
+                if WAIT is not None:
+                    sleep(WAIT)
+
+            except ConnectionError:
+                print(colored("CONNECTION ERROR!",'red'))
+                sys.exit(1)
+            except KeyboardInterrupt:
+                sys.exit(0)
+    
+    client.close()
+    matching_queue.put(matching)
+
+def divide_requests(result_product) -> list:
+    result_product_sliced = list()
+    n_comb = len(result_product)
+    to_each_thread = [0] * PROCESSES
+    chunk = int(n_comb // PROCESSES)
+
+    for i in range(PROCESSES):
+        to_each_thread[i] += chunk
+        n_comb -= chunk
+
+    while n_comb > 0:
+        for x in range(PROCESSES):
+            to_each_thread[x] += 1
+            n_comb -= 1
+            if n_comb <= 0:
+                break
+
+    index = 0
+
+    for n in range(PROCESSES):
+        until = index + to_each_thread[n]
+        to_append = result_product[index:until]
+        result_product_sliced.append(to_append)
+        index = index + to_each_thread[n]
+
+    return result_product_sliced
+
+def handleProcesses(result_product,keys) -> list:
+    result_product_sliced = divide_requests(result_product)
+    req_queue = multiprocessing.Queue()
+    matching_queue = multiprocessing.Queue()
+    
+    printerprocess = multiprocessing.Process(target=printer,args=(req_queue,))
+    printerprocess.start()
+
+    senders = list()
+
+    for slice in result_product_sliced:
+        sender = multiprocessing.Process(target=request_from_combinations, args=(slice, keys,req_queue,matching_queue,))
+        sender.start()
+        senders.append(sender)
+
+    for sender in senders:
+        sender.join()
+
+    matching_queue.put('STOP')
+
+    printerprocess.terminate()
+
+    return sum(dump_queue(matching_queue))
 
 #region ARGS TO VARS
 if args.target is None:
@@ -254,76 +423,32 @@ if args.special_char is None:
     print('\n Consider to use curl if you want to make just 1 request. \n')
     sys.exit("coglione")
 
+if args.processes != 1:
+    if args.processes == "max" or args.processes == "MAX":
+        PROCESSES = os.cpu_count()
+    else:
+        PROCESSES = int(args.processes)
+
+if args.save:
+    SAVE = args.save
+    
+
 #endregion
 
 def main():
-    try:
-        MATCHING=0
-        client = httpx.Client()
-
+    try: 
         result_product,keys = combos(args.special_char)
+        MATCHING = handleProcesses(result_product,keys)
 
-        for combination in result_product:
-            result_dict = dict(zip(keys, combination))
+        if MATCHING > 0: print(f"\n\nGOOD NEWS FOUND {MATCHING} MATCHINGS\n")
+        else: print("\nNO MATCHINGS\n")
 
-            newHeaders = {key: replace_substring(value, result_dict) for key, value in HEADERS.items()}
-            newParams = {key: replace_substring(value, result_dict) for key, value in PARAMS.items()}
-            newCookies = {key: replace_substring(value, result_dict) for key, value in COOKIES.items()}
-
-            if METHOD == 'POST':
-                newHeaders['content-type'] = 'application/json'
-
-            if DATA:
-                newData = {key: replace_substring(value, result_dict) for key, value in DATA.items()}
-                newData = json.dumps(newData)
-                request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies,data=newData)
-            else:
-                request = httpx.Request(METHOD,url=TARGET,headers=newHeaders,params=newParams,cookies=newCookies)
-
-            try:
-                response = client.send(request)
-                print_based_on_verbousity(LEVEL,response,request)
-                if OMITS:
-                    if OMITS not in response.content.decode():
-                        if STATUS :
-                            if response.status_code in STATUS:
-                                save_found_match(request,response)
-                                MATCHING+=1
-                        else:
-                            save_found_match(request,response)
-                            MATCHING+=1
-                if INCLUDES:
-                    if INCLUDES in response.content.decode():
-                        save_found_match(request,response)
-                        MATCHING+=1
-                        if STATUS :
-                            if response.status_code in STATUS:
-                                save_found_match(request,response)
-                                MATCHING+=1
-                        else:
-                            save_found_match(request,response)
-                            MATCHING+=1
-                if INCLUDES is None and OMITS is None and STATUS:
-                    if str(response.status_code) in STATUS:
-                        save_found_match(request,response)
-                        MATCHING+=1
-
-                if WAIT is not None:
-                    sleep(WAIT)
-
-            except ConnectionError:
-                print(colored("CONNECTION ERROR!",'red'))
-                sys.exit(1)
-
-        if MATCHING > 0:
-            print(f"GOOD NEWS FOUND {MATCHING} MATCHINGS")
-        client.close()
         sys.exit(0)
 
     except KeyboardInterrupt:
-        print("\n\n\n Exit ...")
+        print("\r\n\n\nExit ...")
         sys.exit()
 
-
 if __name__ == "__main__":
+    print(parser.prog + '\n' + parser.description + '\n' + '\n')
     main()
